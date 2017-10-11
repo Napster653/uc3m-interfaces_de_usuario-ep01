@@ -1,0 +1,101 @@
+.videoInfo
+{
+	float: left;
+	width: 33%;
+}
+	.videoStats
+	{
+		display: block;
+		text-align: center;
+		padding: 10px;
+		font-size: 24px;
+	}
+		.videoStats i
+		{
+			vertical-align: -12%;
+		}
+		.videoStats a
+		{
+			color: white;
+			text-decoration: none;
+			border: 1px solid #546e7a;
+			border-radius: 5px;
+			display: block;
+			width: 100px;
+			margin: 20px auto;
+			background-color: #546e7a;
+		}
+		.videoStats a:hover
+		{
+			box-shadow: 0 0 15px black;
+		}
+	.videoDescription
+	{
+		background-color: lightgrey;
+		margin: 20px;
+		border: 1px solid grey;
+		border-radius: 5px;
+		padding: 15px;
+		box-shadow: 0 0 5px grey;
+	}
+.videoFrame
+{
+	float: right;
+	width: 60%;
+	position: relative;
+	padding-bottom: 30%;
+	box-shadow: 0 0 5px grey;
+}
+	.videoFrame:hover
+	{
+		box-shadow: 0 0 10px black;
+	}
+	.videoFrame iframe
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+.galleryContainer
+{
+	box-sizing: border-box;
+	float: left;
+	width: 33%;
+	padding: 0 10px;
+}
+	.galleryVideo
+	{
+		border: 1px solid dimgrey;
+		box-shadow: 0 0 5px grey;
+	}
+		.galleryVideo:hover
+		{
+			border: 1px solid black;
+			box-shadow: 0 0 10px black;
+		}
+		.galleryVideo img
+		{
+			width: 100%;
+			height: auto;
+		}
+	.galleryTitle
+	{
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 12px 0;
+	}
+		.galleryTitle h4
+		{
+			margin: 12px 0;
+			font-size: 18px;
+			padding: 0;
+		}
+		.galleryTitle i
+		{
+			font-size: 24px;
+			margin: 5px 0;
+		}

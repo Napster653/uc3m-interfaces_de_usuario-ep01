@@ -1,0 +1,98 @@
+.imgUser
+{
+	max-height: 100px;
+	max-width: 70%;
+}
+.section33
+{
+	width: 33%;
+}
+.section66
+{
+	width: 67%;
+}
+input
+{
+	background-color: #64b5f6;
+	margin: 10px 0px 30px;
+	border: none;
+	border-bottom: 2px solid dimgrey;
+	width: 70%;
+	font-size: 15px;
+}
+	input:hover
+	{
+		border-bottom: 2px solid black;
+	}
+	input:focus
+	{
+		outline: none;
+		border-bottom: 2px solid black;
+	}
+.hide
+{
+	display: none;
+}
+
+form
+{
+	margin: 30px 0px;
+}
+	form label
+	{
+		cursor: pointer;
+		display: inline-block;
+		margin: 10px 0px;
+		padding: 10px 20px;
+		border-bottom: 2px solid dimgrey;
+		font-size: 16px;
+		width: 50%;
+	}
+	form label:hover
+	{
+		border-bottom: 2px solid black;
+	}
+		form label i
+		{
+			float: right;
+			padding-left: 10px;
+		}
+select
+{
+	border: none;
+	font-size: 15px;
+	border-bottom: 2px solid dimgrey;
+	width: 70%;
+	margin: 10px 0px 30px;
+	background-color: #64b5f6;
+}
+	select:hover
+	{
+		border-bottom: 2px solid black;
+	}
+	select:focus
+	{
+		border-bottom: 2px solid black;
+	}
+	select option
+	{
+		background-color: white;
+	}
+.payment
+{
+	display: block;
+	float: left;
+	margin-right: 40px;
+}
+	.ccdate
+	{
+		width: 20px;
+	}
+	.ccnumber
+	{
+		width: 200px;
+	}
+	.cccvc
+	{
+		width: 50px;
+	}
