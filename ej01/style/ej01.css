@@ -1,98 +1,198 @@
+body
+{
+	margin: 0 auto;
+}
+header
+{
+	position: fixed;
+	top: 0px;
+	border: none;
+	width: 100%;
+	background-color: lightgrey;
+}
+header ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	border: 2px solid black;
+	padding: 10px 0;
+	overflow: auto;
+	width: 50%;
+	margin: auto;
+}
+footer ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 33%;
+}
+footer li
+{
+	text-align: center;
+	padding: 5px 0;
+}
+a
+{
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+header a
+{
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+header a:hover
+{
+	background-color: goldenrod;
+}
+footer a
+{
+	font-size: 15px;
+	margin: auto;
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+.imgLogo
+{
+	max-height: 57px;
+}
 .imgUser
 {
 	max-height: 100px;
 	max-width: 70%;
 }
-.section33
+.headerBig
 {
+	font-size: 40px;
+	color: black;
+	padding-left: 20px;
+	font-family: serif;
+	vertical-align: 30%;
+	display: inline;
+}
+.headerSmall
+{
+	font-size: 30px;
+	color: black;
+	padding-left: 20px;
+	font-family: serif;
+	vertical-align: 50%;
+	display: inline;
+}
+.right
+{
+	float: right;
+}
+.left
+{
+	float: left;
+}
+.container_1
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 100px auto 0;
+	max-width: 70%;
+	border-top: 2px solid black;
+	overflow: hidden;
+}
+.container_2
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: auto;
+	max-width: 70%;
+	border-top: 2px solid black;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.sectionTitle
+{
+	float: left;
 	width: 33%;
 }
-.section66
+.sectionContentOneColumn
 {
+	float: left;
 	width: 67%;
+}
+.sectionContentTwoColumns
+{
+	float: left;
+	width: 33%;
 }
 input
 {
-	background-color: #64b5f6;
 	margin: 10px 0px 30px;
 	border: none;
-	border-bottom: 2px solid dimgrey;
+	border-bottom: 2px solid lightgrey;
 	width: 70%;
 	font-size: 15px;
 }
-	input:hover
-	{
-		border-bottom: 2px solid black;
-	}
-	input:focus
-	{
-		outline: none;
-		border-bottom: 2px solid black;
-	}
-.hide
+input:focus
+{
+	outline: none;
+	border-bottom: 2px solid black;
+}
+.inputfile
 {
 	display: none;
 }
-
+.inputlabel
+{
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	border-bottom: 2px solid lightgrey;
+	font-size: 16px;
+	width: 50%;
+}
+.inputlabel:hover
+{
+	background-color: lightgrey;
+}
+.upload
+{
+	float: right;
+	padding-left: 10px;
+}
 form
 {
 	margin: 30px 0px;
 }
-	form label
-	{
-		cursor: pointer;
-		display: inline-block;
-		margin: 10px 0px;
-		padding: 10px 20px;
-		border-bottom: 2px solid dimgrey;
-		font-size: 16px;
-		width: 50%;
-	}
-	form label:hover
-	{
-		border-bottom: 2px solid black;
-	}
-		form label i
-		{
-			float: right;
-			padding-left: 10px;
-		}
 select
 {
 	border: none;
 	font-size: 15px;
-	border-bottom: 2px solid dimgrey;
+	border-bottom: 2px solid lightgrey;
 	width: 70%;
 	margin: 10px 0px 30px;
-	background-color: #64b5f6;
 }
-	select:hover
-	{
-		border-bottom: 2px solid black;
-	}
-	select:focus
-	{
-		border-bottom: 2px solid black;
-	}
-	select option
-	{
-		background-color: white;
-	}
 .payment
 {
 	display: block;
 	float: left;
 	margin-right: 40px;
 }
-	.ccdate
-	{
-		width: 20px;
-	}
-	.ccnumber
-	{
-		width: 200px;
-	}
-	.cccvc
-	{
-		width: 50px;
-	}
+.ccdate
+{
+	width: 20px;
+}
+.ccnumber
+{
+	width: 200px;
+}
+.cccvc
+{
+	width: 50px;
+}

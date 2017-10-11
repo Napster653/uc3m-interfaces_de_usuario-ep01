@@ -19,6 +19,14 @@ header
 		margin: 0;
 		padding: 0;
 	}
+	.headerLeft
+	{
+		float: left;
+	}
+	.headerRight
+	{
+		float: right;
+	}
 	header a
 	{
 		text-decoration: none;
@@ -44,6 +52,12 @@ header
 	{
 		max-height: 57px;
 	}
+
+nav
+{
+	display: none;
+}
+
 .content
 {
 	overflow: auto;
@@ -69,7 +83,6 @@ footer
 {
 	padding: 10px 0;
 	overflow: auto;
-	width: 50%;
 	margin: 0 auto 20px;
 	background-color: #1976d2;
 	box-shadow: 0 0 10px black;
@@ -82,6 +95,15 @@ footer
 		padding: 0;
 		float: left;
 		width: 33%;
+	}
+	footer hr
+	{
+		display: none;
+	}
+	.footerLines
+	{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
 	}
 	footer li
 	{
